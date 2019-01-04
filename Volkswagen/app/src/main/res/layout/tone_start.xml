@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txtViewTOneStart_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="    C 2000 года начат выпуск Sharan нового поколения; в 2001 году начат выпуск обновлённого VW Polo. Микроавтобусы типа T4 сходили с конвейера до 2002 года. К этому времени было выпущено 8,5 млн автомобилей VW Transporter." />
+
+        <ImageView
+            android:id="@+id/imgViewTOneStart_1"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/tone1_transporter"
+            android:layout_below="@id/txtViewTOneStart_1"
+            android:layout_marginTop="7dp"/>
+
+        <TextView
+            android:id="@+id/txtViewTOneStart_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imgViewTOneStart_1"
+            android:text="Volkswagen Transporter"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:layout_marginBottom="7dp" />
+
+        <TextView
+            android:id="@+id/txtViewTOneStart_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="    В 2003 году Мексиканский филиал компании VW прекратил производство автомобиля Beetle. В том же году было начато производство автомобилей T5. На данный момент на базе VW T5 выпускаются следующие модели: Transporter, Volkswagen California, Caravelle и Multivan."
+            android:layout_below="@id/txtViewTOneStart_2"/>
+
+        <ImageView
+            android:id="@+id/imgViewTOneStart_2"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/tone2_caravelle"
+            android:layout_below="@id/txtViewTOneStart_3"
+            android:layout_marginTop="7dp"/>
+
+        <TextView
+            android:id="@+id/txtViewTOneStart_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imgViewTOneStart_2"
+            android:text="Volkswagen Caravelle"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:layout_marginBottom="7dp" />
+
+        <TextView
+            android:id="@+id/txtViewTOneStart_5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="    В 2003 году снят c производства кабриолет Volkswagen Golf Cabriolet. В том же году начат выпуск седана класса люкс Volkswagen Phaeton. Также начинают выпускать 5-дверный внедорожник Volkswagen Touareg."
+            android:layout_below="@id/txtViewTOneStart_4"/>
+
+        <ImageView
+            android:id="@+id/imgViewTOneStart_3"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/tone3_touareg"
+            android:layout_below="@id/txtViewTOneStart_5"
+            android:layout_marginTop="7dp"/>
+
+        <TextView
+            android:id="@+id/txtViewTOneStart_6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imgViewTOneStart_3"
+            android:text="Volkswagen Touareg"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:layout_marginBottom="7dp" />
+
+        <TextView
+            android:id="@+id/txtViewTOneStart_7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="    В 2003 году начат выпуск 5-дверного минивэна Touran, построенного на платформе VW Golf V и кабриолета Volkswagen New Beetle. Также был обновлён Multivan, который был поставлен на новую платформу T5. В 2004 году начато производство 4-дверных минивэнов Caddy III и 5-дверных хэтчбеков Volkswagen Polo Fun."
+            android:layout_below="@id/txtViewTOneStart_6"/>
+
+        <TextView
+            android:id="@+id/txtViewTOneStart_8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="    В 2005 году прекратился выпуск Bora. Вместо него сейчас выпускается Jetta. Также в 2005 году прекращен выпуск универсала Golf III. Вместо него выпускается VW Golf IV и пикап с аналогичным названием. В том же году начат выпуск 3- и 5-дверного хэтчбека Volkswagen Fox и обновление VW Polo."
+            android:layout_below="@id/txtViewTOneStart_7"/>
+
+        <TextView
+            android:id="@+id/txtViewTOneStart_9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="    В 2005 году компания прекратила выпуск Lupo. К концу 2009 года Volkswagen планируют представить новый автомобиль Volkswagen Up, который должен стать заменой VW Lupo. В том же году начат выпуск Volkswagen GolfPlus. Были обновлены модели Volkswagen New Beetle и кабриолет VW New Beatle Cabrio."
+            android:layout_below="@id/txtViewTOneStart_8"/>
+
+        <TextView
+            android:id="@+id/txtViewTOneStart_10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="    C 2006 года компания начала выпуск купе-кабриолетов Volkswagen EOS. Автомобиль имеет жесткую складную крышу с полноценным люком. Крыша автомобиля складывается-раскладывается за 25 с. Объём багажника — 380 литров. Как и все современные кабриолеты, Eos оснащается механической защитой пассажиров на случай опрокидывания — при необходимости за пассажирами в течение 0,25 с появляется силовая штанга."
+            android:layout_below="@id/txtViewTOneStart_9"/>
+
+        <ImageView
+            android:id="@+id/imgViewTOneStart_4"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/tone4_eos"
+            android:layout_below="@id/txtViewTOneStart_10"
+            android:layout_marginTop="7dp"/>
+
+        <TextView
+            android:id="@+id/txtViewTOneStart_11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imgViewTOneStart_4"
+            android:text="Volkswagen Eos"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:layout_marginBottom="7dp" />
+
+        <TextView
+            android:id="@+id/txtViewTOneStart_12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="    С 2007 года компания начала выпуск кроссовера Volkswagen Tiguan который выпускается в трёх комплектациях: TrendFun, SportStyle, TrackField. Также в 2007 появились Touareg после рестайлинга и Golf Variant новых поколений. Ещё обновились две модели: GolfPlus и Touran которые теперь называются Volkswagen CrossGolf и Volkswagen CrossTouran соответственно."
+            android:layout_below="@id/txtViewTOneStart_11"/>
+
+        <ImageView
+            android:id="@+id/imgViewTOneStart_5"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/tone5_tiguan"
+            android:layout_below="@id/txtViewTOneStart_12"
+            android:layout_marginTop="7dp"/>
+
+        <TextView
+            android:id="@+id/txtViewTOneStart_13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imgViewTOneStart_5"
+            android:text="Volkswagen Tiguan"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:layout_marginBottom="7dp" />
+    </RelativeLayout>
+</ScrollView>

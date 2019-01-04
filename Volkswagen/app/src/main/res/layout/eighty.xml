@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txtViewEighty_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="    С 1980 года на базе Golf II производилась модель Volkswagen Jetta с кузовом 4-дверный седан. В 1992-м она была заменена аналогичной машиной (уже на шасси Golf III), названной Volkswagen Vento."/>
+
+        <TextView
+            android:id="@+id/txtViewEighty_2"
+            android:layout_below="@id/txtViewEighty_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="    В 1981 году VW Passat и Scirocco были модернизированы, а через год на базе VW Passat появился седан Santana, в оснащение которого впервые входил 5-цилиндровый бензиновый двигатель рабочим объёмом 1994 см³."/>
+
+        <ImageView
+            android:id="@+id/imgViewEighty_1"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/eighty1_santana"
+            android:layout_below="@id/txtViewEighty_2"
+            android:layout_marginTop="7dp"/>
+
+        <TextView
+            android:id="@+id/txtViewEighty_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imgViewEighty_1"
+            android:text="Volkswagen Santana"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:layout_marginBottom="7dp" />
+
+        <TextView
+            android:id="@+id/txtViewEighty_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="    Модели Volkswagen Variant с кузовом универсал и кабриолет на шасси машин VW Golf третьего поколения продолжают выпускаться с 1993 года. Модели Variant Syncro с 1,8-, 2,0- и 2,8-литровыми моторами имеют полноприводные шасси."
+            android:layout_below="@id/txtViewEighty_3"/>
+
+        <TextView
+            android:id="@+id/txtViewEighty_5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="    Компактная модель VW Polo третьего поколения  (VW Polo III) производится с 1994 года. Кузова 3- и 5-дверный хэтчбек, седан Polo Classic и 5-дверный универсал Variant. Двигатели бензиновые и дизельные 4-цилиндровые рабочим объёмом 1,0—1,9 л мощностью 50—101 л. с."
+            android:layout_below="@id/txtViewEighty_4"/>
+
+        <ImageView
+            android:id="@+id/imgViewEighty_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/eighty2_polo3"
+            android:layout_below="@id/txtViewEighty_5"
+            android:layout_marginTop="7dp"/>
+
+        <TextView
+            android:id="@+id/txtViewEighty_6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imgViewEighty_2"
+            android:text="Volkswagen Polo 3"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:layout_marginBottom="7dp" />
+
+        <TextView
+            android:id="@+id/txtViewEighty_7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="    Универсал повышенной вместимости Volkswagen Sharan производится с 1995 года в 5—7-местном исполнениях, на передне- и полноприводном шасси. Мощность бензиновых и дизельных двигателей рабочим объёмом 1,9—2,8 л в пределах 90—174 л. с."
+            android:layout_below="@id/txtViewEighty_6"/>
+
+        <TextView
+            android:id="@+id/txtViewEighty_8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="    Семейство моделей VW Passat пятого поколения (VW Passat V) было показано в 1996 году. В отличие от предыдущих машин, выпускавшихся с 1988 года, они вновь унифицированы с однотипными Audi моделей «А4» и «А6». Это позволило применить более мощные и современные силовые агрегаты Audi продольного расположения. Модели VW Passat производятся только с кузовами седан и 5-дверный универсал Variant и оснащены 4-, 5- и 6-цилиндровыми бензиновыми и дизельными моторами в 1,6—2,8 л мощностью 90—193 л. с."
+            android:layout_below="@id/txtViewEighty_7"/>
+
+        <ImageView
+            android:id="@+id/imgViewEighty_3"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/eighty3_passat5"
+            android:layout_below="@id/txtViewEighty_8"
+            android:layout_marginTop="7dp"/>
+
+        <TextView
+            android:id="@+id/txtViewEighty_9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imgViewEighty_3"
+            android:text="Volkswagen Passat 5"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:layout_marginBottom="7dp" />
+
+        <TextView
+            android:id="@+id/txtViewEighty_10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="    В 1999 вышла модель комфортабельного седана Volkswagen Bora."
+            android:layout_below="@id/txtViewEighty_9"/>
+
+        <ImageView
+            android:id="@+id/imgViewEighty_4"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/eighty4_bora"
+            android:layout_below="@id/txtViewEighty_10"
+            android:layout_marginTop="7dp"/>
+
+        <TextView
+            android:id="@+id/txtViewEighty_11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imgViewEighty_4"
+            android:text="Volkswagen Bora"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:layout_marginBottom="7dp" />
+
+        <TextView
+            android:id="@+id/txtViewEighty_12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="    Несколько предприятий Volkswagen AG в Бразилии, Мексике, Аргентине и Китае изготовляют ряд моделей, существенно отличающихся от европейской продукции. Среди них модели Volkswagen Gol, Volkswagen Parati и Santana, созданные на шасси моделей VW Golf и VW Passat предыдущих поколений."
+            android:layout_below="@id/txtViewEighty_11"/>
+
+        <TextView
+            android:id="@+id/txtViewEighty_13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="    Мексиканский филиал продолжает производство модели 1,6i типа Beetle с 1,6-литровым двигателем в 44 л. с., а с начала 1998 года освоен выпуск принципиально нового переднеприводного автомобиля Volkswagen Lupo на шасси моделей VW Golf, внешне похожего на известного Beetle."
+            android:layout_below="@id/txtViewEighty_12"/>
+
+        <ImageView
+            android:id="@+id/imgViewEighty_5"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/eighty5_lupo"
+            android:layout_below="@id/txtViewEighty_13"
+            android:layout_marginTop="7dp"/>
+
+        <TextView
+            android:id="@+id/txtViewEighty_14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imgViewEighty_5"
+            android:text="Volkswagen Lupo"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:layout_marginBottom="7dp" />
+
+
+
+
+    </RelativeLayout>
+</ScrollView>

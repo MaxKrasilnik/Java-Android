@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="com.example.format.volkswagen.MainActivity"
+    android:scrollbars="none">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:id="@+id/relativeLayoutBefore"
+            android:layout_width="match_parent"
+            android:layout_height="200dp">
+
+            <ImageButton
+                android:id="@+id/imgBtnBefore"
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:onClick="onClick"
+                android:scaleType = "fitXY"
+                android:background="@drawable/before2_vw30"/>
+
+            <TextView
+                android:id="@+id/txtViewBefore"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imgBtnBefore"
+                android:text="Начало истории"
+                android:textSize="18sp"
+                android:gravity="center"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeLayoutFifty"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@id/relativeLayoutBefore">
+
+            <ImageButton
+                android:id="@+id/imgBtnFifty"
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:onClick="onClick"
+                android:scaleType = "fitXY"
+                android:background="@drawable/fifty3_vw1500"/>
+
+            <TextView
+                android:id="@+id/txtViewFifty"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imgBtnFifty"
+                android:text="Он — член моей семьи"
+                android:textSize="18sp"
+                android:gravity="center"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeLayoutSeventy"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@id/relativeLayoutFifty">
+
+            <ImageButton
+                android:id="@+id/imgBtnSeventy"
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:onClick="onClick"
+                android:scaleType = "fitXY"
+                android:background="@drawable/seventy2_golf"/>
+
+            <TextView
+                android:id="@+id/txtViewSeventy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imgBtnSeventy"
+                android:text="Новый VW. Появление легенды"
+                android:textSize="18sp"
+                android:gravity="center"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeLayoutEighty"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@id/relativeLayoutSeventy">
+
+            <ImageButton
+                android:id="@+id/imgBtnEighty"
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:onClick="onClick"
+                android:background="@drawable/eighty1_santana"
+                android:scaleType = "fitXY"/>
+
+            <TextView
+                android:id="@+id/txtViewEighty"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imgBtnEighty"
+                android:text="Оптимизация и расширение"
+                android:textSize="18sp"
+                android:gravity="center"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeLayoutTOne"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@id/relativeLayoutEighty">
+
+            <ImageButton
+                android:id="@+id/imgBtnTOne"
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:onClick="onClick"
+                android:background="@drawable/tone4_eos"
+                android:scaleType = "fitXY"/>
+
+            <TextView
+                android:id="@+id/txtViewTOne"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imgBtnTOne"
+                android:text="21 век. Новое поколение"
+                android:textSize="18sp"
+                android:gravity="center"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeLayoutNow"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@id/relativeLayoutTOne">
+
+            <ImageButton
+                android:id="@+id/imgBtnNow"
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:onClick="onClick"
+                android:background="@drawable/tone7_xl1"
+                android:scaleType = "fitXY"/>
+
+            <TextView
+                android:id="@+id/txtViewNow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imgBtnNow"
+                android:text="ЭлектроVW"
+                android:textSize="18sp"
+                android:gravity="center"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeLayoutNowModel"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@id/relativeLayoutNow">
+
+            <ImageButton
+                android:id="@+id/imgBtnNowModel"
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:onClick="onClick"
+                android:background="@drawable/now_model"
+                android:scaleType = "fitXY"/>
+
+            <TextView
+                android:id="@+id/txtViewNowModel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imgBtnNowModel"
+                android:text="Самые популярные автомобили VW"
+                android:textSize="18sp"
+                android:gravity="center"/>
+        </RelativeLayout>
+    </RelativeLayout>
+</ScrollView>

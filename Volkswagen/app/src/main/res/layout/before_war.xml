@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txtViewBefore_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="    История этой известнейшей автомобильной марки берет свое начало со средины 30-х годов прошлого века. Согласно легенде, началось все осенью 1933 года, когда в неформальной обстановке отельного номера Кайзерхоф произошла встреча между Фердинандом Порше (Ferdinand Porsche) и Адольфом Гитлером" />
+
+        <ImageView
+            android:id="@+id/imgViewBefore_1"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/before1_porsche"
+            android:layout_below="@id/txtViewBefore_1"
+            android:layout_marginTop="7dp"/>
+
+        <TextView
+            android:id="@+id/txtViewBefore_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imgViewBefore_1"
+            android:text="Фердинанд Порше"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:layout_marginBottom="7dp" />
+
+        <TextView
+            android:id="@+id/txtViewBefore_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="    Последний был заинтересован в создании небольшого автомобиля, способного вместить в себя семью из двух взрослых и трех детей, да еще и разогнаться при этом до 100 км/час, потребляя не более 8 литров на 100 км. Немаловажным требованием была доступная стоимость, которая оказалась бы по карману любому уважающему себя бюргеру. Порше к тому времени уже прославился как великолепный конструктор, так что не удивительно, что решение этой задачи было предложено именно ему. Согласно той же легенде, Гитлер потребовал, чтобы новый автомобиль легко было переоборудовать для использования в военных целях — должно было помещаться трое солдат и пулемет. В те годы в Германии все строилось с этим условием; к примеру, при создании торговых кораблей, уже на этапе проектирования ставилась цель обеспечить возможность легкого преобразования во вспомогательный крейсер"
+            android:layout_below="@id/txtViewBefore_2"
+            android:layout_marginLeft="5dp"/>
+
+        <TextView
+            android:id="@+id/txtViewBefore_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="    Последний был заинтересован в создании небольшого автомобиля, способного вместить в себя семью из двух взрослых и трех детей, да еще и разогнаться при этом до 100 км/час, потребляя не более 8 литров на 100 км. Немаловажным требованием была доступная стоимость, которая оказалась бы по карману любому уважающему себя бюргеру. Порше к тому времени уже прославился как великолепный конструктор, так что не удивительно, что решение этой задачи было предложено именно ему. Согласно той же легенде, Гитлер потребовал, чтобы новый автомобиль легко было переоборудовать для использования в военных целях — должно было помещаться трое солдат и пулемет. В те годы в Германии все строилось с этим условием; к примеру, при создании торговых кораблей, уже на этапе проектирования ставилась цель обеспечить возможность легкого преобразования во вспомогательный крейсер."
+            android:layout_below="@id/txtViewBefore_3"
+            android:layout_marginLeft="5dp"/>
+
+        <TextView
+            android:id="@+id/txtViewBefore_5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="    Первые наработки Порше сумел предоставить уже в январе 1934 года. Тогда им уже были разработаны общие концепции нового автомобиля. Проект был одобрен Рейхсканцелярией, выделившей на его реализацию необходимую сумму рейхсмарок, при условии что рабочий прототип появится уже к концу 1934 года. Но этим планам не суждено было сбыться — на реализацию проекта потребовалось долгих два года. Когда же необходимые прототипы были готовы, то начался процесс их тщательнейшего тестирования. Требования были выдвинуты жесточайшие, но автомобили доказали свою пригодность к перевозке представителей арийской нации."
+            android:layout_below="@id/txtViewBefore_4"
+            android:layout_marginLeft="5dp"/>
+
+        <TextView
+            android:id="@+id/txtViewBefore_6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="    В 1937 году появляется первый VW30, уже готовый для массового производства. Автомобильчик произвел настоящий фурор на всех выставках, где его представляли."
+            android:layout_below="@id/txtViewBefore_5"
+            android:layout_marginLeft="5dp"/>
+
+        <ImageView
+            android:id="@+id/imgViewBefore_2"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/before2_vw30"
+            android:layout_below="@id/txtViewBefore_6"
+            android:layout_marginTop="7dp"/>
+
+        <TextView
+            android:id="@+id/txtViewBefore_7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imgViewBefore_2"
+            android:text="KdF-Wagen"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:layout_marginBottom="7dp" />
+
+        <TextView
+            android:id="@+id/txtViewBefore_8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="    Журналисты сразу же окрестили его «Жуком» — это название останется за ним навсегда. Впрочем, сам Гитлер именовал сие творение KdF-Wagen, в честь нацистской организации Kraft durch Freude («Сила через радость»), занимавшейся вопросами улучшения досуга и быта населения"
+            android:layout_below="@id/txtViewBefore_7"
+            android:layout_marginLeft="5dp"/>
+
+        <TextView
+            android:id="@+id/txtViewBefore_9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="    В 1938 году началось строительство заводов Volkswagen. Строили с размахом — вокруг заводских помещений был даже заложен новый город, получивший название Вольфсбург (Wolfsburg). В нем и по сей день находится головной офис Volkswagen Group. На новый автомобиль была установлена цена в 990 рейхсмарок — меньше, чем среднестатистический рабочий получал за год."
+            android:layout_below="@id/txtViewBefore_8"
+            android:layout_marginLeft="5dp"/>
+
+        <TextView
+            android:id="@+id/txtViewBefore_10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="    Массовое производство KdF-Wagen началось в 1939 году, было выпущено несколько десятков экземпляров. Но начавшаяся война перечеркнула все планы и заводы Volkswagen в срочном порядке переключились на производство военной продукции полноприводных амфибий Kübelwagen, которые активно использовались войсками Вермахта. На заводах компании в те годы работали военнопленные, согнанные на принудительные работы. В дальнейшем, в 1998 году руководство Volkswagen официально признает этот факт и начинает выплату компенсаций — под эту акцию попали 2050 человек со всего мира."
+            android:layout_below="@id/txtViewBefore_9"
+            android:layout_marginLeft="5dp"/>
+
+        <ImageView
+            android:id="@+id/imgViewBefore_3"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/before3_kubelwagen"
+            android:layout_below="@id/txtViewBefore_10"
+            android:layout_marginTop="7dp"/>
+
+        <TextView
+            android:id="@+id/txtViewBefore_11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imgViewBefore_3"
+            android:text="Kubelwagen"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:layout_marginBottom="7dp" />
+
+
+
+    </RelativeLayout>
+</ScrollView>

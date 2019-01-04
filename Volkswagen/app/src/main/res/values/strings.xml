@@ -1,0 +1,157 @@
+<resources>
+    <string name="app_name">Volkswagen</string>
+    <string name="before">"30&#8211;40&#8211;е 20 века</string>
+    <string name="fifty">50&#8211;60&#8211;e 20 века</string>
+    <string name="seventy">70&#8211;e 20 века</string>
+    <string name="eighty">80&#8211;90&#8211;e 20 века</string>
+    <string name="tone_start">2000&#8211;e</string>
+    <string name="tone_now">2010&#8211;e</string>
+    <string name="now_model">Популярные авто VW</string>
+    <string name="golf">Volkswagen Golf</string>
+    <string name="golf_characteristic1">Характеристика</string>
+    <string name="golf_characteristic2">Двигатель</string>
+    <string name="golf_characteristic3">
+        <item>
+            Объем двигателя, куб. см.: 1968\n
+            Мощность, л.с.: 150\n
+            Достигается при об. в мин.: 3500\n
+            Крутящий момент, Нм/об. в мин.: 320/1750\n
+            Максимальная скорость, км/ч: 212\n
+            Время разгона до 100 км/ч, сек.: 8.6\n
+            Расход топлива (смешанный цикл), л. на 100 км.: 4.4\n
+            Расход топлива (в городе), л. на 100 км.: 5.2\n
+            Расход топлива (за городом), л. на 100 км.: 4\n
+            Выхлоп CO2, г/км: 117\n
+        </item>
+    </string>
+
+    <string name="golf_characteristic4">Коробка передач</string>
+    <string name="golf_characteristic5">
+        <item>
+            Коробка передач: АКПП\n
+Количество ступеней: 6\n
+Вид коробки: DSG\n
+        </item>
+    </string>
+
+    <string name="golf_characteristic6">Габариты</string>
+    <string name="golf_characteristic7">
+        <item>
+            Длина, мм: 4255\n
+Ширина, мм: 1790\n
+Высота, мм: 1452\n
+Колесная база, мм: 2637\n
+Колея колес спереди, мм: 1549\n
+Колея колес сзади, мм: 1520\n
+Клиренс, мм: 142\n
+        </item>
+    </string>
+
+    <string name="golf_characteristic8">Прочее</string>
+    <string name="golf_characteristic9">
+        <item>
+            Количество мест: 5\n
+            Объем багажника, л: 380\n
+            Объем топливного бака, л: 50\n
+            Диаметр разворота, м: 10.9
+        </item>
+    </string>
+
+
+
+    <string name="tiguan">Volkswagen Tiguan</string>
+    <string name="tiguan_characteristic1">Характеристика</string>
+    <string name="tiguan_characteristic2">Двигатель</string>
+    <string name="tiguan_characteristic3">
+        <item>
+            Объем двигателя, куб. см.: 1984\n
+Клапанов на цилиндр: 4\n
+Мощность, л.с.: 220\n
+Достигается при об. в мин.: 6200\n
+Крутящий момент, Нм/об. в мин.: 350/1500 - 4400\n
+        </item>
+    </string>
+
+    <string name="tiguan_characteristic4">Коробка передач</string>
+    <string name="tiguan_characteristic5">
+        <item>
+            Коробка передач: АКПП\n
+Количество ступеней: 6\n
+        </item>
+    </string>
+
+    <string name="tiguan_characteristic6">Габариты</string>
+    <string name="tiguan_characteristic7">
+        <item>
+            Длина, мм: 4490\n
+Ширина, мм: 1839\n
+Высота, мм: 1633\n
+Колесная база, мм: 2682\n
+Клиренс, мм: 200\n
+        </item>
+    </string>
+
+    <string name="tiguan_characteristic8">Прочее</string>
+    <string name="tiguan_characteristic9">
+        <item>
+            Количество мест: 5\n
+Объем багажника, л: 615
+        </item>
+    </string>
+
+
+    <string name="polo">Volkswagen Polo</string>
+    <string name="polo_characteristic1">Характеристика</string>
+    <string name="polo_characteristic2">Двигатель</string>
+    <string name="polo_characteristic3">
+        <item>
+            Объем двигателя, куб. см.: 1984\n
+Клапанов на цилиндр: 4\n
+Мощность, л.с.: 200\n
+Достигается при об. в мин.: 4700\n
+Крутящий момент, Нм/об. в мин.: 320/1500\n
+Максимальная скорость, км/ч: 237\n
+Время разгона до 100 км/ч, сек.: 6.7\n
+Расход топлива (смешанный цикл), л. на 100 км.: 5.9\n
+Расход топлива (в городе), л. на 100 км.: 7.7\n
+Расход топлива (за городом), л. на 100 км.: 4.9\n
+Диaметр цилиндра, мм: 82.5\n
+Ход поршня, мм: 92.8\n
+Выхлоп CO2, г/км: 134\n
+Коэффициент сжатия: 10.3\n
+        </item>
+    </string>
+
+    <string name="polo_characteristic4">Коробка передач</string>
+    <string name="polo_characteristic5">
+        <item>
+            Коробка передач: МКПП\n
+Количество ступеней: 6\n
+        </item>
+    </string>
+
+    <string name="polo_characteristic6">Габариты</string>
+    <string name="polo_characteristic7">
+        <item>
+            Длина, мм: 4053\n
+Ширина, мм: 1751\n
+Высота, мм: 1446\n
+Колесная база, мм: 2564\n
+Колея колес спереди, мм: 1525\n
+Колея колес сзади, мм: 1505\n
+        </item>
+    </string>
+
+    <string name="polo_characteristic8">Прочее</string>
+    <string name="polo_characteristic9">
+        <item>
+            Количество мест: 5\n
+Размер шин: 215/45R17\n
+Снаряженная масса, кг: 1241\n
+Объем багажника, л: 351\n
+Объем топливного бака, л: 40\n
+Диаметр разворота, м: 10.6\n
+Гарантия от коррозии, лет: 12
+        </item>
+    </string>
+</resources>

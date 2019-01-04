@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/imgBtnNowGolf"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:onClick="onClickNowModel"
+            android:background="@drawable/now_model_golf"
+            android:scaleType = "fitXY"/>
+
+        <TextView
+            android:id="@+id/txtViewNowGolf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imgBtnNowGolf"
+            android:text="Volkswagen Golf"
+            android:textSize="18sp"
+            android:gravity="center"/>
+
+        <ImageButton
+        android:id="@+id/imgBtnNowPolo"
+        android:layout_below="@id/txtViewNowGolf"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:onClick="onClickNowModel"
+        android:background="@drawable/now_model_polo"
+        android:scaleType = "fitXY"/>
+
+        <TextView
+            android:id="@+id/txtViewNowPolo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imgBtnNowPolo"
+            android:text="Volkswagen Polo"
+            android:textSize="18sp"
+            android:gravity="center"/>
+
+        <ImageButton
+            android:id="@+id/imgBtnNowTiguan"
+            android:layout_below="@id/txtViewNowPolo"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:onClick="onClickNowModel"
+            android:background="@drawable/now_model_tiguan"
+            android:scaleType = "fitXY"/>
+
+        <TextView
+            android:id="@+id/txtViewNowTiguan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imgBtnNowTiguan"
+            android:text="Volkswagen Tiguan"
+            android:textSize="18sp"
+            android:gravity="center"/>
+    </RelativeLayout>
+</ScrollView>

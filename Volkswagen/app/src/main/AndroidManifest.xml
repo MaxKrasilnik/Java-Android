@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.format.volkswagen">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".BeforeWar"
+            android:screenOrientation="portrait"
+            android:label="@string/before">
+        </activity>
+        <activity android:name=".Fifty"
+            android:screenOrientation="portrait"
+            android:label="@string/fifty">
+        </activity>
+        <activity android:name=".Seventy"
+            android:screenOrientation="portrait"
+            android:label="@string/seventy">
+        </activity>
+        <activity android:name=".Eighty"
+            android:screenOrientation="portrait"
+            android:label="@string/eighty">
+        </activity>
+        <activity android:name=".TOneStart"
+            android:screenOrientation="portrait"
+            android:label="@string/tone_start">
+        </activity>
+        <activity android:name=".TOneNow"
+            android:screenOrientation="portrait"
+            android:label="@string/tone_now">
+        </activity>
+        <activity android:name=".NowModel"
+            android:screenOrientation="portrait"
+            android:label="@string/now_model">
+        </activity>
+        <activity android:name=".Golf"
+            android:screenOrientation="portrait"
+            android:label="@string/golf">
+        </activity>
+        <activity android:name=".Polo"
+            android:screenOrientation="portrait"
+            android:label="@string/polo">
+        </activity>
+        <activity android:name=".Tiguan"
+            android:screenOrientation="portrait"
+            android:label="@string/tiguan">
+        </activity>
+    </application>
+
+</manifest>

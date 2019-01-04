@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txtViewTOneNow_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="    В мае 2011 года Volkswagen завершил строительства завода Chattanooga в штате Теннесси. На заводе производятся автомобили и внедорожники Volkswagen, специально предназначенные для рынков Северной Америки, начиная с Passat B7 в 2011 году. Недавно компания объявила о планах дальнейшего расширения, инвестировав 900 миллионов долларов США для увеличения производственных площадей на заводе." />
+
+        <ImageView
+            android:id="@+id/imgViewTOneNow_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtViewTOneNow_1"
+            android:layout_marginTop="7dp"
+            android:src="@drawable/tone6_chattanooga" />
+
+        <TextView
+            android:id="@+id/txtViewTOneNow_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imgViewTOneNow_1"
+            android:text="Завод Сhattanooga"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:layout_marginBottom="7dp" />
+
+        <TextView
+            android:id="@+id/txtViewTOneNow_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="    В 2013 году Volkswagen начал ограниченное производство VW XL1. Машина представляет собой легкое и экономичное транспортное средство (только 795 кг) расчитаное на двух человек."
+            android:layout_below="@id/txtViewTOneNow_2"/>
+
+        <ImageView
+            android:id="@+id/imgViewTOneNow_2"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/tone7_xl1"
+            android:layout_below="@id/txtViewTOneNow_3"
+            android:layout_marginTop="7dp"/>
+
+        <TextView
+            android:id="@+id/txtViewTOneNow_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imgViewTOneNow_2"
+            android:text="Volkswagen X11"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:layout_marginBottom="7dp" />
+
+        <TextView
+            android:id="@+id/txtViewTOneNow_5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="    В 2013 году Volkswagen начал ограниченное производство VW XL1. Машина представляет собой легкое и экономичное транспортное средство (только 795 кг) расчитаное на двух человек."
+            android:layout_below="@id/txtViewTOneNow_4"/>
+
+        <TextView
+            android:id="@+id/txtViewTOneNow_6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="    В сентябре 2015 года Агентство по охране окружающей среды США (EPA) обнаружило, что программа, использовавшаяся в бортовом компьютере выпускаемых Volkswagen автомобилей с дизельными двигателями, включая модели Audi A3, VW Jetta, Beetle, Golf и Passat, не могла определять, работает ли автомобиль в обычном режиме или же идет его тестирование."
+            android:layout_below="@id/txtViewTOneNow_5"/>
+
+        <ImageView
+            android:id="@+id/imgViewTOneNow_3"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/tone_usa"
+            android:layout_below="@id/txtViewTOneNow_6"
+            android:layout_marginTop="7dp"/>
+
+        <TextView
+            android:id="@+id/txtViewTOneNow_7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imgViewTOneNow_3"
+            android:text="Агентство по охране окружающей среды США"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:layout_marginBottom="7dp" />
+
+        <TextView
+            android:id="@+id/txtViewTOneNow_8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="    При тестировании происходило автоматическое переключение на экологически более чистый режим. Агентство по охране окружающей среды сообщило, что за каждый автомобиль, не соответствующий экологическим стандартам США, производитель заплатит штраф в $37,5 тыс. Учитывая, что число проданных с 2008 года в США машин составляет 482 тысячи, общая сумма штрафа может достичь $18 млрд. Volkswagen отозвал в США полмиллиона своих машин. Председатель совета директоров Volkswagen Мартин Винтеркорн принес извинения, пообещав поддержать расследование, которое будет проводить министерство транспорта Германии. Затем Винтеркорн заявил, что уходит в отставку."
+            android:layout_below="@id/txtViewTOneNow_7"/>
+
+        <TextView
+            android:id="@+id/txtViewTOneNow_9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="    Volkswagen Atlas начал производстводиться в конце 2016 года и направлен на возмещение убытков в последние несколько лет Volkswagen в США, второму по величине в мире автомобильного рынка."
+            android:layout_below="@id/txtViewTOneNow_8"/>
+
+        <ImageView
+            android:id="@+id/imgViewTOneNow_4"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/tone8_atlas"
+            android:layout_below="@id/txtViewTOneNow_9"
+            android:layout_marginTop="7dp"/>
+
+        <TextView
+            android:id="@+id/txtViewTOneNow_10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imgViewTOneNow_4"
+            android:text="Volkswagen Atlas"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:layout_marginBottom="7dp" />
+
+        <TextView
+            android:id="@+id/txtViewTOneNow_11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="    Volkswagen называет их переход к электромобилям «Transform 2025+». В рамках этой стратегии Volkswagen планирует выпустить более 30 электромобилей до 2025 года и ожидает ежегодные продажи от 2 до 3 миллионов электромобилей Volkswagen к 2025 году, что составит 20-25 процентов от их общего годового объема продаж. В сентябре 2017 года генеральный директор Матиас Мюллер объявил о планах иметь электрическую версию всех 300 автомобильных моделей VW к 2030 году. Компания обещает потратить 20 миллиардов евро к 2030 году на разработку автомобилей и выделит еще 50 миллиардов евро на покупку батареи, необходимые для питания транспортных средств."
+            android:layout_below="@id/txtViewTOneNow_10"/>
+
+        <TextView
+            android:id="@+id/txtViewTOneNow_12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="    В апреле 2018 года Volkswagen представил свой первый полностью электрический гоночный автомобиль ID R Pikes Peak, который был создан для выигрыша гонок с одноименным названием. ID R Pikes Peak был представлен в Aлесе (Франция). Он будет работать от двух электрических двигателей. С литий-ионным аккумулятором на борту автомобиль генерирует 680 л.с. и 479 Нм крутящего момента."
+            android:layout_below="@id/txtViewTOneNow_11"/>
+
+        <ImageView
+            android:id="@+id/imgViewTOneNow_5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtViewTOneNow_12"
+            android:layout_marginTop="7dp"
+            android:src="@drawable/tone9_pikes_peak" />
+
+        <TextView
+            android:id="@+id/txtViewTOneNow_13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imgViewTOneNow_5"
+            android:text="Volkswagen Pikes Peak"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:layout_marginBottom="7dp" />
+
+        <TextView
+            android:id="@+id/txtViewTOneNow_14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="    В сентябре 2018 года Volkswagen объявил о прекращении производства своего легендарного компактного автомобиля Beetle к 2019 году."
+            android:layout_below="@id/txtViewTOneNow_13"/>
+
+        <ImageView
+            android:id="@+id/imgViewTOneNow_6"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/tone10_beetle"
+            android:layout_below="@id/txtViewTOneNow_14"
+            android:layout_marginTop="7dp"/>
+
+        <TextView
+            android:id="@+id/txtViewTOneNow_15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imgViewTOneNow_6"
+            android:text="Volkswagen Beetle"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:layout_marginBottom="7dp" />
+    </RelativeLayout>
+</ScrollView>

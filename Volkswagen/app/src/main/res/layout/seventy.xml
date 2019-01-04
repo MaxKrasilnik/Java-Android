@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/txtViewSeventy_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:text="    Родоначальником нового поколения автомобилей VW считается переднеприводный Volkswagen Passat, выпущенный в 1973 году. Он предлагался в многочисленных вариантах с двигателями рабочим объёмом от 1297 до 1588 см³."/>
+
+    <ImageView
+        android:id="@+id/imgViewSeventy_1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/seventy1_passat"
+        android:layout_below="@id/txtViewSeventy_1"
+        android:layout_marginTop="7dp"/>
+
+    <TextView
+        android:id="@+id/txtViewSeventy_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgViewSeventy_1"
+        android:text="Volkswagen Passat"
+        android:textSize="12sp"
+        android:gravity="center"
+        android:layout_marginBottom="7dp" />
+
+    <TextView
+        android:id="@+id/txtViewSeventy_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:text="    На следующий год появился спортивный Volkswagen Scirocco с 3-дверным кузовом купе и моторами объёмом от 1093 до 1588 см³, а также компактный 3- и 5-дверный хэтчбек VW Golf."
+        android:layout_below="@id/txtViewSeventy_2"/>
+
+        <ImageView
+            android:id="@+id/imgViewSeventy_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtViewSeventy_3"
+            android:layout_marginTop="7dp"
+            android:src="@drawable/seventy2_golf" />
+
+        <TextView
+            android:id="@+id/txtViewSeventy_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imgViewSeventy_2"
+            android:text="Volkswagen Golf"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:layout_marginBottom="7dp" />
+
+        <TextView
+            android:id="@+id/txtViewSeventy_5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="    За первые 30 месяцев выпуска с конвейера сошёл 1 млн машин VW Golf, превратив Volkswagen AG в одного из крупнейших изготовителей автомобилей в Европе. В 1979 году появился кабриолет Volkswagen Golf, неизменно пользовавшийся высоким спросом."
+            android:layout_below="@id/txtViewSeventy_4"/>
+
+        <TextView
+            android:id="@+id/txtViewSeventy_6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="    Модель Golf I, появившаяся в 1974 году, оказалась наиболее удачной: современная, экономичная, надёжная, именно такая модель могла расшевелить международный рынок. VW Golf ознаменовал собой новый этап конкуренции в производстве класса компактных автомобилей, которые стали почти официально называться «гольф-классом». Если за время разработки новых моделей в 1973—1974 годы убытки концерна превысили 800 млн немецких марок, то уже в 1975 году за счёт большого спроса на них удалось покрыть все затраты. Всего через 3 года после запуска Volkswagen Golf I был произведён миллионный автомобиль этой марки. В 1983 году увидел свет Volkswagen Golf II, а восемь лет спустя, в 1991 году, дебютировал Volkswagen Golf III, который, как и предыдущие модели, поддержал высокую репутацию VW Golf. За двадцать три года с начала выпуска было выпущено 17 млн VW Golf трёх поколений. В 1995—1996 годах Golf II лидировал по числу продаж в Европе. В 1997 году состоялся дебют нового Volkswagen Golf IV, только в первые дни после которого было принято более 60 тыс. заказов."
+            android:layout_below="@id/txtViewSeventy_5"/>
+
+        <TextView
+            android:id="@+id/txtViewSeventy_7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="    В начале 1975 года представили «младшего брата» VW Golf — трёхдверный переднеприводный Volkswagen Polo, аналогичный по конструкции автомобилю Audi 50 и предлагавшийся с двигателями рабочим объёмом 895—1272 см³. Недорогой и практичный VW Polo также стал очень популярным и укрепил финансовое положение Volkswagen AG."
+            android:layout_below="@id/txtViewSeventy_6"/>
+
+        <ImageView
+            android:id="@+id/imgViewSeventy_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtViewSeventy_7"
+            android:layout_marginTop="7dp"
+            android:src="@drawable/seventy3_polo" />
+
+        <TextView
+            android:id="@+id/txtViewSeventy_8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imgViewSeventy_3"
+            android:text="Volkswagen Polo"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:layout_marginBottom="7dp" />
+
+
+
+    </RelativeLayout>
+</ScrollView>

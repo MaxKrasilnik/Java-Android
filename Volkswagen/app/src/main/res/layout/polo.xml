@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/imgViewPolo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/now_model_polo2"
+        android:layout_marginTop="7dp" />
+
+    <TextView
+        android:id="@+id/txtViewPolo_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgViewPolo"
+        android:text="Volkswagen Polo 6"
+        android:textSize="12sp"
+        android:gravity="center"
+        android:layout_marginBottom="7dp" />
+
+    <TextView
+        android:id="@+id/txtViewPolo_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="    Kомпактный автомобиль немецкого автоконцерна Volkswagen, находящийся в производстве с 1975 года. Выпускался с кузовами типа хэтчбек (Polo, Polo Coupe), седан (Derby, Polo Classic, Polo Sedan), универсал (Polo Variant) и грузопассажирский фургон (Caddy). В 2010 году был признан автомобилем года в Европе и в мире. Polo стабильно входит в десятку самых продаваемых автомобилей Европы."
+        android:layout_below="@id/txtViewPolo_1"
+        android:layout_marginLeft="5dp"/>
+
+        <TextView
+            android:id="@+id/txtViewPolo_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/txtViewPolo_2"
+            android:gravity="center"
+            android:text="@string/polo_characteristic1"
+            android:textSize="18sp"
+            android:layout_marginBottom="6dp"/>
+
+        <TextView
+            android:id="@+id/txtViewPolo_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtViewPolo_3"
+            android:layout_marginLeft="5dp"
+            android:gravity="center"
+            android:text="@string/polo_characteristic2"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/txtViewPolo_5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/polo_characteristic3"
+            android:layout_below="@id/txtViewPolo_4"
+            android:layout_marginLeft="5dp" />
+
+        <TextView
+            android:id="@+id/txtViewPolo_6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtViewPolo_5"
+            android:layout_marginLeft="5dp"
+            android:gravity="center"
+            android:text="@string/polo_characteristic4"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/txtViewPolo_7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/polo_characteristic5"
+            android:layout_below="@id/txtViewPolo_6"
+            android:layout_marginLeft="5dp" />
+
+        <TextView
+            android:id="@+id/txtViewPolo_8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtViewPolo_7"
+            android:layout_marginLeft="5dp"
+            android:gravity="center"
+            android:text="@string/polo_characteristic6"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/txtViewPolo_9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/polo_characteristic7"
+            android:layout_below="@id/txtViewPolo_8"
+            android:layout_marginLeft="5dp" />
+
+        <TextView
+            android:id="@+id/txtViewPolo_10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/txtViewPolo_9"
+            android:gravity="center"
+            android:text="@string/polo_characteristic8"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/txtViewPolo_11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/polo_characteristic9"
+            android:layout_below="@id/txtViewPolo_10"
+            android:layout_marginLeft="5dp" />
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imgViewGolf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/now_model_golf2"
+            android:layout_below="@id/txtViewBefore_1"
+            android:layout_marginTop="7dp" />
+
+        <TextView
+            android:id="@+id/txtViewGolf_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imgViewGolf"
+            android:text="Volkswagen Golf 5"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:layout_marginBottom="7dp" />
+
+        <TextView
+            android:id="@+id/txtViewGolf_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="    Гольф стал самой успешной моделью Фольксвагена, занимает первое место среди самых продаваемых автомобилей (по данным на 2018 года), является лидером продаж в Европе. Является родоначальником гольф-класса. Volkswagen Golf был признан импортным автомобилем года в Японии (2004—2005). В 2013 году Volkswagen Golf седьмого поколения на ежегодном конкурсе «Всемирный автомобиль года» (World Car of the Year или WCotY) был назван лучшим автомобилем года."
+            android:layout_below="@id/txtViewGolf_1"
+            android:layout_marginLeft="5dp"/>
+
+        <TextView
+            android:id="@+id/txtViewGolf_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/txtViewGolf_2"
+            android:gravity="center"
+            android:text="@string/golf_characteristic1"
+            android:textSize="18sp"
+            android:layout_marginBottom="6dp"/>
+
+        <TextView
+            android:id="@+id/txtViewGolf_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtViewGolf_3"
+            android:layout_marginLeft="5dp"
+            android:gravity="center"
+            android:text="@string/golf_characteristic2"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/txtViewGolf_5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/golf_characteristic3"
+            android:layout_below="@id/txtViewGolf_4"
+            android:layout_marginLeft="5dp" />
+
+        <TextView
+            android:id="@+id/txtViewGolf_6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtViewGolf_5"
+            android:layout_marginLeft="5dp"
+            android:gravity="center"
+            android:text="@string/golf_characteristic4"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/txtViewGolf_7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/golf_characteristic5"
+            android:layout_below="@id/txtViewGolf_6"
+            android:layout_marginLeft="5dp" />
+
+        <TextView
+            android:id="@+id/txtViewGolf_8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtViewGolf_7"
+            android:layout_marginLeft="5dp"
+            android:gravity="center"
+            android:text="@string/golf_characteristic6"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/txtViewGolf_9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/golf_characteristic7"
+            android:layout_below="@id/txtViewGolf_8"
+            android:layout_marginLeft="5dp" />
+
+        <TextView
+            android:id="@+id/txtViewGolf_10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/txtViewGolf_9"
+            android:gravity="center"
+            android:text="@string/golf_characteristic8"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/txtViewGolf_11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/golf_characteristic9"
+            android:layout_below="@id/txtViewGolf_10"
+            android:layout_marginLeft="5dp" />
+
+    </RelativeLayout>
+</ScrollView>
